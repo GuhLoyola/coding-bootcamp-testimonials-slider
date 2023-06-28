@@ -1,0 +1,44 @@
+@media(max-width: 768px) {
+    body {
+        background: url(../img/pattern-bg.svg), url(../img/pattern-quotes.svg),
+        url(../img/pattern-curve.svg);
+        background-repeat: no-repeat;
+        background-size: 80%, 20%, 80%;
+        background-position: 62% 18%, 45% 58%, bottom left;
+    }
+
+    .tanya, .john {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .image_container img {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .container p {
+        margin-top: 72px;
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .container .name, .container .title {
+        font-size: 16px;
+    }
+
+    .image_container .nav_buttons {
+        height: 40px;
+        width: 70px;
+        top: 230px;
+        right: 90px;
+    }
+
+    .name-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
